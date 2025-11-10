@@ -7,7 +7,7 @@
 
 - 本项目是为了梳理自身技能所创建，不定期更改。
 - 本文档是计划练习实现的模块功能，并不代表会作为待办模块功能。
-- 本项目由[isdl](https://github.com/isydl)和[h1419155986-netizen](https://github.com/h1419155986-netizen)共同维护
+- 本项目由[isdl](https://github.com/isydl)和[da1kim](https://github.com/da1kim)共同维护
 
 ---
 ## 记忆型，随处可用的知识
@@ -82,4 +82,5 @@
 *   将一个单体应用进行容器化改造，并部署到K8s集群中。
 
 ### **分布式治理与韧性 (Resilience & Governance)**
+
 *  当线上系统出现性能抖动时，从应用日志、JVM监控、系统指标和链路追踪中找到问题根因。
