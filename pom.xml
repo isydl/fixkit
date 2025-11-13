@@ -8,7 +8,7 @@
 		<version>3.5.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.arbb</groupId>
+	<groupId>com.trick</groupId>
 	<artifactId>fixkit</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
@@ -22,8 +22,12 @@
 		<developer/>
 	</developers>
     <modules>
-        <module>general</module>
-    </modules>
+        <module>common</module>
+		<module>infra</module>
+		<module>starter</module>
+		<module>services</module>
+		<module>gateway</module>
+	</modules>
     <scm>
 		<connection/>
 		<developerConnection/>
