@@ -4,8 +4,8 @@
 > - 本文档会详细描述功能实现
 
 ## 目录结构
-`
-src/main/java/com/trick/service/user
+```
+src/main/java/com/trick/service/notification
 ├── api/             # 控制器 + DTO
 ├── service/         # 业务逻辑层（含事务边界）
 ├── domain/          # 领域模型（实体（Entity）、模型（Model）、值对象（Value Object））
@@ -15,7 +15,7 @@ src/main/java/com/trick/service/user
 ├── config/          # 本地配置、AOP、TaskExecutor
 └── Main.java
 
-`
+```
 ## Todo
 - [ ] 发送邮件/Push 要幂等
   - [ ] 记录 notificationId，并为每次发送记录状态（pending/sent/failed）

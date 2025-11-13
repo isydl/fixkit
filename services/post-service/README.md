@@ -5,7 +5,7 @@
 
 ## 目录结构
 ```
-src/main/java/com/trick/service/user
+src/main/java/com/trick/service/post
 ├── api/             # 控制器 + DTO
 ├── service/         # 业务逻辑层（含事务边界）
 ├── domain/          # 领域模型（实体（Entity）、模型（Model）、值对象（Value Object））

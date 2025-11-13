@@ -4,7 +4,7 @@
 > - 本文档会详细描述功能实现
 
 ## 目录结构
-`
+```
 src/main/java/com/trick/service/user
 ├── api/             # 控制器 + DTO
 ├── service/         # 业务逻辑层（含事务边界）
@@ -16,7 +16,7 @@ src/main/java/com/trick/service/user
 ├── config/          # 本地配置、AOP、TaskExecutor
 └── UserServiceApplication.java
 
-`
+```
 ## Todo
 - [ ] 个人信息
   - [ ] 读优先缓存;

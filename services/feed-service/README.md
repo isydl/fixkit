@@ -6,8 +6,8 @@
 - 对普通用户使用 **预计算 Push**（在作者发帖后将 postId 推到粉丝的 Redis timeline），对超大粉丝（大V）使用 **Pull**（不做全量 Push，写 global hot stream + 用户拉时裁剪）
 - 让 Push/Pull 切换成为运行时策略（配置化，按 author threshold）——这很关键
 ## 目录结构
-`
-src/main/java/com/trick/service/user
+```
+src/main/java/com/trick/service/feed
 ├── api/             # 控制器 + DTO
 ├── service/         # 业务逻辑层（含事务边界）
 ├── domain/          # 领域模型（实体（Entity）、模型（Model）、值对象（Value Object））
@@ -17,7 +17,7 @@ src/main/java/com/trick/service/user
 ├── config/          # 本地配置、AOP、TaskExecutor
 └── Main.java
 
-`
+```
 ## Todo
 - [ ] 设计全局热点数据:Redis ZSET 存 top m个
 - [ ] 存储策略

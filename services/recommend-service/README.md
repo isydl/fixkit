@@ -6,8 +6,8 @@
 > G了，不知道咋做 
 
 ## 目录结构
-`
-src/main/java/com/trick/service/user
+```
+src/main/java/com/trick/service/recommend
 ├── api/             # 控制器 + DTO
 ├── service/         # 业务逻辑层（含事务边界）
 ├── domain/          # 领域模型（实体（Entity）、模型（Model）、值对象（Value Object））
@@ -17,7 +17,7 @@ src/main/java/com/trick/service/user
 ├── config/          # 本地配置、AOP、TaskExecutor
 └── Main.java
 
-`
+```
 ## Todo
 - [ ] 自定义异常、分层封装、全局处理
 - [ ] 自定义注解
