@@ -63,6 +63,6 @@ fixkit/
 - [ ] 热度推荐 + 基础算法
 - [ ] 基本监控（请求指标、服务健康、队列积压）
 
-> 非业务型需求功能，请参考各个项目内的文档。
+> 非业务型需求功能，请参考各个项目内的文档。[common](common/README.md)、[gateway](gateway/README.md)、[infra](infra/README.md)、[starter](starter/README.md)、[services](services/README.md)
 
 > 通用模块功能设计请参考[Todo](TODO.md)

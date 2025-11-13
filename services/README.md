@@ -15,6 +15,7 @@
 │   └── media-service/
 
 ```
+> 各个服务的文档。[user](user-service/README.md)、[feed](feed-service/README.md)、[interaction](interaction-service/README.md)、[media](media-service/README.md)、[notification](notification-service/README.md)、[post](post-service/README.md)、[recommend](recommend-service/README.md)
 ## Todo
 - [ ] Service 层负责事务控制，外层由注解切面保证幂等
 - [ ] 缓存策略通过 `CacheTemplate` 封装，读取时优先 Redis，未命中则回源 DB。
